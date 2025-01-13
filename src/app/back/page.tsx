@@ -4,7 +4,7 @@ type Greeting = {
   _id: string;
 }
 export default async function Back() {
-  const baseUrl = "http://localhost:3000"
+  const baseUrl = "https://m5g2-back-end-no-sql.vercel.app"
   const response = await fetch(`${baseUrl}/api`)
   const greetings: Greeting[] = await response.json()
   return (
