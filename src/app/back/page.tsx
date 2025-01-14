@@ -16,3 +16,5 @@ export default async function Back() {
     </div>
   )
 }
+
+export const fetchCache = 'force-no-store'
